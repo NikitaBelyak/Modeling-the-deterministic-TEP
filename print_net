@@ -1,0 +1,7 @@
+function print_net(lines)
+    n_nodes = size(unique([lines[:,2];lines[:,3]]),1)
+    println(n_nodes)
+
+
+
+end
